@@ -145,11 +145,6 @@ GEM
     formatador (0.2.5)
     haml (4.0.6)
       tilt
-    handlebars_assets (0.20.2)
-      execjs (~> 2.0)
-      multi_json (~> 1.0)
-      sprockets (>= 2.0.0, < 4.0)
-      tilt (~> 1.2)
     hike (1.2.3)
     hitimes (1.2.2)
     hooks (0.4.0)
@@ -276,7 +271,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  handlebars_assets
   middleman
   middleman-autoprefixer
   middleman-cdn

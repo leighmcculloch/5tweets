@@ -1,0 +1,26 @@
+---
+title: 5Tweets – Quickly format multi-tweet tweets!
+description: Type a long tweet and 5Tweets will rewrite it into multilpe tweets.
+---
+
+.content
+  .content-item.content-description
+    Type a long tweet and 5Tweets will rewrite it into multiple tweets.
+  .content-item.content-converter
+    .convertee.raw
+      %textarea#raw
+    .convertee.tweets#tweets
+  .content-item.content-options
+    .option
+      %input{ id: "prefix", value: "", placeholder: "Tweet prefix" }
+    .option
+      %input{ id: "character-limit", value: "140", placeholder: "Limit", size: "3" }
+    .option
+      %label
+        %input{ id: "count", type: "checkbox", checked: "checked" }
+        Include Count
+  .content-item.content-made-with-by
+    by Leigh McCulloch
+    %br
+    %a{href:"https://github.com/leighmcculloch/5tweets.com"}
+      github.com/leighmcculloch/5tweets.com

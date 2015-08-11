@@ -1,0 +1,18 @@
+%html
+  %head
+    %meta{charset:"UTF-8"}
+    %meta{content:"IE=edge,chrome=1", :"http-equiv"=>"X-UA-Compatible"}
+
+    = stylesheet_link_tag "//fonts.googleapis.com/css?family=Open+Sans"
+    = stylesheet_link_tag "style"
+
+    %title= current_page.data.title
+
+    %meta{name:"description", content:current_page.data.description}
+
+    %meta{:name=>"viewport", :content=>"width=device-width,initial-scale=1,user-scalable=no,minimum-scale=1,maximum-scale=1"}
+
+    %script{type:"text/javascript", src:"javascripts/all.js", async:"async"}
+
+  %body.page
+    = yield

@@ -6,7 +6,7 @@ $(function(){
   var example =
     'I wrote my first long tweet and it needed to span five tweets.\n\n' +
     'It was difficult to figure out where to split the tweets to make the most of the 140 characters. I also wanted to leave room for a tweet count.\n\n' +
-    'I wrote this to help me write my first long tweet, it worked well enough that I decided to share it. Feedback appreciated.\n' +
+    'I wrote this to help me write my first long tweet, it worked well enough that I decided to share it. Feedback appreciated.\n\n' +
     'Start typing at anytime to take over.';
 
   function refresh(){

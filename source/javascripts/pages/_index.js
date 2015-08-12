@@ -31,7 +31,8 @@ $(function(){
 
       $('<a class="tweet" href="https://twitter.com/intent/tweet?text=' + encodeURIComponent(text) + '" target="_blank"></a>')
       .text(text)
-      .appendTo('#tweets');
+      .appendTo('#tweets')
+      .mouseover(function() { this.selectText(); });
     });
   };
 

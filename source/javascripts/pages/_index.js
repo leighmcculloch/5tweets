@@ -35,7 +35,6 @@ $(function(){
     });
   };
 
-  var refreshInterval = setInterval(refresh, 100);
   $('#raw')
   .keydown(refresh)
   .keyup(refresh)
@@ -46,4 +45,6 @@ $(function(){
   .keydown(refresh)
   .keyup(refresh)
   .change(refresh);
+
+  refresh();
 });

@@ -35,7 +35,7 @@ $(function(){
         text += ' ' + tweetCount + '/' + totalTweetCount;
       }
 
-      $('<a class="tweet" href="http://twitter.com/home?status=' + encodeURIComponent(text) + '" target="_blank"></a>')
+      $('<a class="tweet" href="https://twitter.com/intent/tweet?text=' + encodeURIComponent(text) + '" target="_blank"></a>')
       .text(text)
       .appendTo('#tweets');
     });

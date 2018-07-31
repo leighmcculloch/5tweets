@@ -1,4 +1,4 @@
-# 5Tweets.com
+# 5Tweets
 
 5Tweets will help you format multi-tweet tweets.
 
